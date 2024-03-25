@@ -1,0 +1,37 @@
+/* src/components/Products.css */
+
+.products-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .products-container h2 {
+    text-align: center;
+  }
+  
+  .products-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-item:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .product-info {
+    font-weight: bold;
+  }
+  
+  .product-info span {
+    color: #007bff;
+  }
+  
